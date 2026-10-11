@@ -1,0 +1,145 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH Traders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #102a43;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        nav {
+            background: #176b87;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 75px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 34px;
+            color: #102a43;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #168aad;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .services {
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 25px;
+            color: #102a43;
+        }
+
+        .service-card {
+            background: white;
+            padding: 25px;
+            margin: 12px auto;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #00000012;
+        }
+
+        footer {
+            background: #102a43;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CH Traders</h1>
+        <p>Your Trusted Trading Partner</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to CH Traders</h2>
+        <p>
+            Quality Products, Reliable Service, and Trusted Business.
+            We are here to serve you.
+        </p>
+        <a class="button" href="#contact">Contact Us</a>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-card">
+            <h3>Trading Services</h3>
+            <p>Reliable trading solutions for your business needs.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Quality Products</h3>
+            <p>We aim to provide quality products and dependable service.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact CH Traders</h2>
+        <p>Email: your-email@example.com</p>
+        <p>&copy; 2026 CH Traders. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
